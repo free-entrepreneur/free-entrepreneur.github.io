@@ -1,0 +1,23 @@
+# Site settings
+title: Learn.
+header-img: img/home-bg.jpg
+email: your-email@yourdomain.com
+description: "Do you want to learn? Let's learn now"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: jorisrenaud
+github_username:  jorisrenaud
+facebook_username:  IronSummitMedia
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 40
+paginate_path: "page:num"
+
+
