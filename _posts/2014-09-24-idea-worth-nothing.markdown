@@ -5,35 +5,24 @@ subtitle:   "Lesson 1"
 header-img: "img/post-bg-06.jpg"
 video: "https://www.youtube.com/embed/SzYqtFgOXFo"
 ---
-
-<!-- <iframe width="100%" src="https://www.youtube.com/embed/SzYqtFgOXFo" frameborder="0" allowfullscreen></iframe> ->>
-
-<!-- <div class="undervideo">
-<ul id="myTab" class="nav nav-tabs">
-   <li class="active"><a href="#home" data-toggle="tab">Aller plus loin</a></li>
-   <li><a href="#ios" data-toggle="tab">Questions Fréquentes</a></li>
-   <li><a href="#" data-toggle="tab">Java</a></li>
-</ul>
-<div id="myTabContent" class="tab-content">
-   <div class="tab-pane fade in active" id="home">
-     <div class="list-group">
-	  <a href="http://cdixon.org/2010/01/03/the-next-big-thing-will-start-out-looking-like-a-toy/" class="list-group-item" target="_blank">
-	    <h3 class="list-group-item-heading">The next big thing will start out looking like a toy </h3>
-	    <p class="list-group-item-text">One of the amazing things about the internet economy is how different the list of top internet properties today looks from the list ten years ago.</p>
-	  </a>
-	  <a href="https://medium.com/rejoignez-le-koudetat/comment-trouver-des-id%C3%A9es-de-startup-d129515fe2e0" class="list-group-item" target="_blank">
-	    <h3 class="list-group-item-heading">Comment trouver des idées de startup</h3>
-	    <p class="list-group-item-text">Trouver la « billion-dollar idea »…. À écouter ceux qui désirent se lancer mais n’osent pas encore, cela semble être le point de départ déterminant.</p>
-	  </a>
-	</div>
-   </div>
-
-   <div class="tab-pane fade" id="ios">
-      <p>iOS is a mobile operating system developed and distributed
-         by Apple Inc. Originally released in 2007 for the iPhone, iPod Touch,
-         and Apple TV. iOS is derived from OS X, with which it shares the
-         Darwin foundation. iOS is Apple's mobile version of the OS X
-         operating system used on Apple computers.</p>
-   </div>
+<!-- Everything underneath is going under the video -->
+<div class="undervideo">
+  <ul id="myTab" class="nav nav-tabs">
+     <li class="active"><a href="#home" data-toggle="tab">Aller plus loin</a></li>
+     <li><a href="#ios" data-toggle="tab">Questions Fréquentes</a></li>
+     <li><a href="#myTabContent" data-toggle="tab">Java</a></li>
+  </ul>
+  <div id="myTabContent" class="tab-content">
+  	  <a href="http://cdixon.org/2010/01/03/the-next-big-thing-will-start-out-looking-like-a-toy/" class="list-group-item" target="_blank">
+  	    <h3 class="list-group-item-heading">The next big thing will start out looking like a toy </h3>
+  	    <p class="list-group-item-text">One of the amazing things about the internet economy is how different the list of top internet properties today looks from the list ten years ago.</p>
+  	  </a>
+  	  <a href="https://medium.com/rejoignez-le-koudetat/comment-trouver-des-id%C3%A9es-de-startup-d129515fe2e0" class="list-group-item" target="_blank">
+  	    <h3 class="list-group-item-heading">Comment trouver des idées de startup</h3>
+  	    <p class="list-group-item-text">Trouver la « billion-dollar idea »…. À écouter ceux qui désirent se lancer mais n’osent pas encore, cela semble être le point de départ déterminant.</p>
+  	  </a>
+  </div>
+  <div class="tab-pane fade" id="ios">
+      <p>iOS is a mobile operating system developed and distributed by Apple Inc. Originally released in 2007 for the iPhone, iPod Touch,and Apple TV. iOS is derived from OS X, with which it shares the Darwin foundation. iOS is Apple's mobile version of the OS X operating system used on Apple computers.</p>
+  </div>
 </div>
-</div> -->
