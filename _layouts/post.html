@@ -6,19 +6,23 @@ layout: default
 <!-- <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')"> -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">-->
             <ul class="pager">
-                    <li class="previous">
-                        <a href="{{ site.baseurl }}/"> &larr; Back to Chapters</a>
-                    </li>
+                    <li class="previous"><a href="{{ site.baseurl }}/"> &larr; Back to Chapters</a></li>
+                    {% if page.next.url %}
+                    <li class="next"><a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/'}}">Complete & continue &rarr;</a></li>
+                    {% else %}
+                    <li class="next"><a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/'}}">Take the final test &rarr;</a></li>
+                    {% endif %}
                 </ul>
-                <div class="post-heading">
+                <!-- <div class="post-heading">
                     <h1>{{ page.title }}</h1>
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
                 </div>
-            </div>
+            </div> -->
+            <iframe width="100%" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </header>
@@ -27,25 +31,26 @@ layout: default
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}
+          <h2 class="subheading">{{ page.subtitle }}</h2>
+          {% endif %}
 
 				{{ content }}
 
 
                 <ul class="pager">
-                    {% if site.baseurl %}
-                    <li class="previous">
-                        <a href="{{ site.baseurl }}/">&larr; Back to Chapters</a>
-                    </li>
-                    {% endif %}
                     {% if page.next.url %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">Complete & continue &rarr;</a>
                     </li>
+                    {% else %}
+                    <li class="next">
+                        <a href="{{ site.baseurl }}/">Take the Final Test &rarr;</a>
+                    </li>
                     {% endif %}
                 </ul>
 
-            </div>
         </div>
     </div>
 </article>

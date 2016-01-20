@@ -3,11 +3,12 @@ layout:     post
 title:      "Une idée ne compte pas"
 subtitle:   "Lesson 1"
 header-img: "img/post-bg-06.jpg"
+video: "https://www.youtube.com/embed/SzYqtFgOXFo"
 ---
 
-<iframe width="100%" src="https://www.youtube.com/embed/SzYqtFgOXFo" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="100%" src="https://www.youtube.com/embed/SzYqtFgOXFo" frameborder="0" allowfullscreen></iframe> ->>
 
-<div class="undervideo">
+<!-- <div class="undervideo">
 <ul id="myTab" class="nav nav-tabs">
    <li class="active"><a href="#home" data-toggle="tab">Aller plus loin</a></li>
    <li><a href="#ios" data-toggle="tab">Questions Fréquentes</a></li>
@@ -28,11 +29,11 @@ header-img: "img/post-bg-06.jpg"
    </div>
 
    <div class="tab-pane fade" id="ios">
-      <p>iOS is a mobile operating system developed and distributed 
+      <p>iOS is a mobile operating system developed and distributed
          by Apple Inc. Originally released in 2007 for the iPhone, iPod Touch,
-         and Apple TV. iOS is derived from OS X, with which it shares the 
-         Darwin foundation. iOS is Apple's mobile version of the OS X 
+         and Apple TV. iOS is derived from OS X, with which it shares the
+         Darwin foundation. iOS is Apple's mobile version of the OS X
          operating system used on Apple computers.</p>
    </div>
 </div>
-</div>
+</div> -->

@@ -62,6 +62,11 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+a .brand {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
 .undervideo {
   margin-top: 6%;
 }
@@ -351,6 +356,9 @@ form .row:first-child .floating-label-form-group {
 .pager {
   margin: 50px 0 0;
 }
+.row .pager {
+  margin-bottom: 50px;
+}
 .pager li > a,
 .pager li > span {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -359,8 +367,13 @@ form .row:first-child .floating-label-form-group {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  background-color: white;
   border-radius: 0;
+}
+
+.pager .next > a
+.pager .next > span {
+  background-color: #D3583D;
+  color: white;
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
