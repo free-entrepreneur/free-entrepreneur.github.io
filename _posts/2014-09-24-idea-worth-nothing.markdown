@@ -7,22 +7,34 @@ video: "https://www.youtube.com/embed/SzYqtFgOXFo"
 ---
 <!-- Everything underneath is going under the video -->
 <div class="undervideo">
-  <ul id="myTab" class="nav nav-tabs">
-     <li class="active"><a href="#home" data-toggle="tab">Aller plus loin</a></li>
-     <li><a href="#ios" data-toggle="tab">Questions Fréquentes</a></li>
-     <li><a href="#myTabContent" data-toggle="tab">Java</a></li>
+<div class="tabs">
+<ul class="tab-links">
+<li class="active"><a href="#tab1">Tab #1</a></li>
+<li><a href="#tab2">Tab #2</a></li>
+      <li><a href="#tab3">Tab #3</a></li>
+      <li><a href="#tab4">Tab #4</a></li>
   </ul>
-  <div id="myTabContent" class="tab-content">
-  	  <a href="http://cdixon.org/2010/01/03/the-next-big-thing-will-start-out-looking-like-a-toy/" class="list-group-item" target="_blank">
-  	    <h3 class="list-group-item-heading">The next big thing will start out looking like a toy </h3>
-  	    <p class="list-group-item-text">One of the amazing things about the internet economy is how different the list of top internet properties today looks from the list ten years ago.</p>
-  	  </a>
-  	  <a href="https://medium.com/rejoignez-le-koudetat/comment-trouver-des-id%C3%A9es-de-startup-d129515fe2e0" class="list-group-item" target="_blank">
-  	    <h3 class="list-group-item-heading">Comment trouver des idées de startup</h3>
-  	    <p class="list-group-item-text">Trouver la « billion-dollar idea »…. À écouter ceux qui désirent se lancer mais n’osent pas encore, cela semble être le point de départ déterminant.</p>
-  	  </a>
+
+  <div class="tab-content">
+      <div id="tab1" class="tab active">
+          <p>Tab #1 content goes here!</p>
+          <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+      </div>
+
+      <div id="tab2" class="tab">
+          <p>Tab #2 content goes here!</p>
+          <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+      </div>
+
+      <div id="tab3" class="tab">
+          <p>Tab #3 content goes here!</p>
+          <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+      </div>
+
+      <div id="tab4" class="tab">
+          <p>Tab #4 content goes here!</p>
+          <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+      </div>
   </div>
-  <div class="tab-pane fade" id="ios">
-      <p>iOS is a mobile operating system developed and distributed by Apple Inc. Originally released in 2007 for the iPhone, iPod Touch,and Apple TV. iOS is derived from OS X, with which it shares the Darwin foundation. iOS is Apple's mobile version of the OS X operating system used on Apple computers.</p>
-  </div>
+</div>
 </div>
