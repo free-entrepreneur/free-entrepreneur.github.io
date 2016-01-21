@@ -5,21 +5,30 @@ description: "Learn anything"
 
 {% for post in paginator.posts reversed %}
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
+
+
+        <input id="1" type="checkbox" class="material_checkbox">
+
+        <label for="1">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+              {% if post.subtitle %}
+              <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+              {% endif %}
+            </a>
+      </label>
+    
+    <hr>
+
+  </ul>
+
+  {% endfor %}
+
 </div>
-<hr>
-{% endfor %}
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
+
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
