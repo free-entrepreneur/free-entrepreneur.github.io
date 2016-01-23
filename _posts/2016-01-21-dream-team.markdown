@@ -1,9 +1,8 @@
 ---
 layout:     post
-title:      "Les piliers du succès"
-subtitle:   "Lesson 2"
-header-img: "img/post-bg-06.jpg"
-video: "https://www.youtube.com/embed/HP99FI6APZU"
+title:      "Rassemble ta dream-team"
+subtitle:   "Lesson 6"
+video: "https://www.youtube.com/embed/MstbkASuIUo"
 ---
 <!-- Everything underneath is going under the video -->
 <div class="undervideo">
@@ -17,24 +16,25 @@ video: "https://www.youtube.com/embed/HP99FI6APZU"
   <!-- Tab panes -->
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane fade in active" id="notes">
-      <p>Maintenant que tu sais quel problème résoudre, en bon pirate, tu veux savoir comment l'aborder. Naturellement, se lancer fait peur. Passer au concret, faire des choix et essayer, c'est se mouiller. Créer sa startup, c’est se jeter à l’eau et apprendre à nager une fois dedans ;). C'est dur, il y a très peu de chance de réussir, il faut en avoir conscience.</p>
-      </p>Souviens-toi : on ne naît pas entrepreneur, on le devient. )</p>
+      <p>L’équipe est LE facteur clef de réussite. Prendre au sérieux la question de l’équipe est nécessaire pour mettre toutes les chances de ton côté. Au sein d’une équipe, bien plus que les compétences, c'est le partage d’une culture forte qui fait la différence. La motivation d'un employé, c'est la promesse d'un apprentissage illimité, il faut savoir faire confiance et faire grandir. </p>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="resources">
       <ul>
-        <li><a href="#">The only thing that matter</a></li>
-        <li><a href="#">Are you a pirate?</a></li>
-        <li><a href="#">Capitaine Train - The story of an unbreakable team on a mission</a></li>
-        <li><a href="#">Start First, Plan Later</a></li>
-        <li><a href="#">Good and Bad reason to become an entrepreneur</a></li>
+        <li><a href="#">The happiness culture: Zappos isn't a company, it's a mission</a></li>
+        <li><a href="#">Don't fuck up the culture</a></li>
+        <li><a href="#">Ask for forgiveness, not permission</a></li>
+        <li><a href="#">Hiring, managing, promoting, and firing executives</a></li>
+        <li><a href="#">DIY vs delegate</a></li>
       </ul>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="discussions">
       <a class="muut" href="https://muut.com/i/jekyll-learn/comments" type="dynamic">jekyll-learn</a>
-      <script src="//cdn.muut.com/1/moot.min.js"></script>
+      <script src="//cdn.muut.com/1/moot.min.js"></script></div>
     </div>
   </div>
 </div>
+
+
 
 
 
