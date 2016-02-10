@@ -42,7 +42,32 @@ layout: default
               </ul>
             </div>
 
-				  {{ content }}
+          <div class="undervideo">
+          <div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#notes" aria-controls="notes" role="tab" data-toggle="tab"><h4>Teacher Notes</h4></a></li>
+              <li role="presentation"><a href="#resources" aria-controls="resources" role="tab" data-toggle="tab"><h4>Resources</h4></a></li>
+              <li role="presentation"><a href="#discussions" aria-controls="discussions" role="tab" data-toggle="tab"><h4>Discussions</h4></a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" id="notes">
+                <p>{{ page.description }}</p>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="resources">
+                <ul>
+                  {{ page.resources }}
+                </ul>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="discussions">
+                <a class="muut" href="https://muut.com/i/jekyll-learn/comments" type="dynamic">jekyll-learn</a>
+                <script src="//cdn.muut.com/1/moot.min.js"></script>
+              </div>
+            </div>
+          </div>
+
+				  {{ content }} 
 
         </div>
     </div>

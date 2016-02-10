@@ -1,13 +1,13 @@
 # Site settings
-title: Learn.
+title: Entrepreneur TV
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
-description: "Do you want to learn? Let's learn now"
+description: "Creating a startup that will change the world? You're in a toxic ecosystem? Learn the shortcuts to make your startup successful and dominate its market."
 baseurl: ""
-url: "http://yourdomain.com"
+url: ""
 twitter_username: jorisrenaud
 github_username:  jorisrenaud
-facebook_username:  IronSummitMedia
+facebook_username: jorisrenaud
 
 # Build settings
 markdown: kramdown
