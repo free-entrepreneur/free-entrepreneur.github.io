@@ -1,13 +1,13 @@
 # Site settings
-title: Learn.
+title: Learn
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 description: "Do you want to learn? Let's learn now"
 baseurl: ""
-url: "http://yourdomain.com"
+url: ""
 twitter_username: jorisrenaud
 github_username:  jorisrenaud
-facebook_username:  IronSummitMedia
+facebook_username: jorisrenaud
 
 # Build settings
 markdown: kramdown
