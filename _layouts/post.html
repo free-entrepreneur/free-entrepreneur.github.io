@@ -13,7 +13,7 @@ layout: default
                 <li class="next"><a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/'}}">Take the final test &rarr;</a></li>
               {% endif %}
             </ul>
-            <iframe width="100%" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" src="{{ page.video }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </header>
@@ -57,7 +57,7 @@ layout: default
               </div>
               <div role="tabpanel" class="tab-pane fade" id="resources">
                 <ul>
-                  {{ page.resources }}
+                  <li><a href="{{ page.resourcesurl }}" target="_blank">{{ page.resourcetitle }}</a></li>
                 </ul>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="discussions">
